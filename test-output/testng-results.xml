@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-21T15:26:53Z" name="Default suite" finished-at="2018-06-21T15:26:57Z" duration-ms="3768">
+    <groups>
+    </groups>
+    <test started-at="2018-06-21T15:26:53Z" name="Default test" finished-at="2018-06-21T15:26:57Z" duration-ms="3768">
+      <class name="webApi.automation.rest.search.ShouldSearchCountryByNameTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:webApi.automation.rest.search.ShouldSearchCountryByNameTest@6a370f4]" started-at="2018-06-21T15:26:53Z" name="init" finished-at="2018-06-21T15:26:53Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="shouldSearchCountryByName()[pri:0, instance:webApi.automation.rest.search.ShouldSearchCountryByNameTest@6a370f4]" started-at="2018-06-21T15:26:53Z" name="shouldSearchCountryByName" finished-at="2018-06-21T15:26:55Z" duration-ms="1657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSearchCountryByName -->
+      </class> <!-- webApi.automation.rest.search.ShouldSearchCountryByNameTest -->
+      <class name="webApi.automation.rest.search.ShouldGetCountryByIso2CodeTest">
+        <test-method signature="shouldGetCountryByIso2Code()[pri:0, instance:webApi.automation.rest.search.ShouldGetCountryByIso2CodeTest@2abf4075]" started-at="2018-06-21T15:26:55Z" name="shouldGetCountryByIso2Code" finished-at="2018-06-21T15:26:55Z" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetCountryByIso2Code -->
+        <test-method is-config="true" signature="init()[pri:0, instance:webApi.automation.rest.search.ShouldGetCountryByIso2CodeTest@2abf4075]" started-at="2018-06-21T15:26:55Z" name="init" finished-at="2018-06-21T15:26:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- webApi.automation.rest.search.ShouldGetCountryByIso2CodeTest -->
+      <class name="webApi.automation.rest.search.ShouldNotGetCountryByNonExistingIso2CodeTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:webApi.automation.rest.search.ShouldNotGetCountryByNonExistingIso2CodeTest@770d3326]" started-at="2018-06-21T15:26:55Z" name="init" finished-at="2018-06-21T15:26:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="shouldNotGetCountryByNonExistingIso2Code()[pri:0, instance:webApi.automation.rest.search.ShouldNotGetCountryByNonExistingIso2CodeTest@770d3326]" started-at="2018-06-21T15:26:55Z" name="shouldNotGetCountryByNonExistingIso2Code" finished-at="2018-06-21T15:26:55Z" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotGetCountryByNonExistingIso2Code -->
+      </class> <!-- webApi.automation.rest.search.ShouldNotGetCountryByNonExistingIso2CodeTest -->
+      <class name="webApi.automation.rest.search.ShouldGetCountryByIso3CodeTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:webApi.automation.rest.search.ShouldGetCountryByIso3CodeTest@4cc8eb05]" started-at="2018-06-21T15:26:55Z" name="init" finished-at="2018-06-21T15:26:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="shouldGetCountryByIso3Code()[pri:0, instance:webApi.automation.rest.search.ShouldGetCountryByIso3CodeTest@4cc8eb05]" started-at="2018-06-21T15:26:55Z" name="shouldGetCountryByIso3Code" finished-at="2018-06-21T15:26:56Z" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetCountryByIso3Code -->
+      </class> <!-- webApi.automation.rest.search.ShouldGetCountryByIso3CodeTest -->
+      <class name="webApi.automation.rest.search.ShouldSearchCountryByIsoCodeTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:webApi.automation.rest.search.ShouldSearchCountryByIsoCodeTest@51f116b8]" started-at="2018-06-21T15:26:56Z" name="init" finished-at="2018-06-21T15:26:56Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="shouldSearchCountryByIso2Code()[pri:0, instance:webApi.automation.rest.search.ShouldSearchCountryByIsoCodeTest@51f116b8]" started-at="2018-06-21T15:26:56Z" name="shouldSearchCountryByIso2Code" finished-at="2018-06-21T15:26:56Z" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSearchCountryByIso2Code -->
+        <test-method is-config="true" signature="init()[pri:0, instance:webApi.automation.rest.search.ShouldSearchCountryByIsoCodeTest@51f116b8]" started-at="2018-06-21T15:26:56Z" name="init" finished-at="2018-06-21T15:26:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="shouldSearchCountryByIso3Code()[pri:0, instance:webApi.automation.rest.search.ShouldSearchCountryByIsoCodeTest@51f116b8]" started-at="2018-06-21T15:26:56Z" name="shouldSearchCountryByIso3Code" finished-at="2018-06-21T15:26:56Z" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSearchCountryByIso3Code -->
+      </class> <!-- webApi.automation.rest.search.ShouldSearchCountryByIsoCodeTest -->
+      <class name="webApi.automation.rest.search.ShouldGetAllCountriesTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:webApi.automation.rest.search.ShouldGetAllCountriesTest@19d481b]" started-at="2018-06-21T15:26:56Z" name="init" finished-at="2018-06-21T15:26:56Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="shouldGetAllCountries()[pri:0, instance:webApi.automation.rest.search.ShouldGetAllCountriesTest@19d481b]" started-at="2018-06-21T15:26:56Z" name="shouldGetAllCountries" finished-at="2018-06-21T15:26:57Z" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetAllCountries -->
+      </class> <!-- webApi.automation.rest.search.ShouldGetAllCountriesTest -->
+      <class name="webApi.automation.rest.search.ShouldNotGetCountryByNonExistingIso3CodeTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:webApi.automation.rest.search.ShouldNotGetCountryByNonExistingIso3CodeTest@1f97cf0d]" started-at="2018-06-21T15:26:57Z" name="init" finished-at="2018-06-21T15:26:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="shouldNotGetCountryByNonExistingIso3Code()[pri:0, instance:webApi.automation.rest.search.ShouldNotGetCountryByNonExistingIso3CodeTest@1f97cf0d]" started-at="2018-06-21T15:26:57Z" name="shouldNotGetCountryByNonExistingIso3Code" finished-at="2018-06-21T15:26:57Z" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotGetCountryByNonExistingIso3Code -->
+      </class> <!-- webApi.automation.rest.search.ShouldNotGetCountryByNonExistingIso3CodeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
